@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Nick LaMuro's Presentations
+title: "Nick LaMuro's Presentations"
 ---
 
 Nick LaMuro's presentations
