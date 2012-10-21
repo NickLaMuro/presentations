@@ -6,7 +6,7 @@ css_file: vim_tmux.css
 ---
 
 {% for slide in site.categories.vim-tmux %}
-  <section class="slide" id="{{ slide.categories.first }}">
+  <section class="slide{% unless slide.tags == empty %} {{ slide.tags | join ' '}}{% endunless %}" id="{{ slide.title }}">
     {{ slide.content }}
   </section>
 {% endfor %}
