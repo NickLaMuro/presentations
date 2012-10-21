@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="assets/css/deck.js/extensions/deck.navigation.css">
     <link rel="stylesheet" href="assets/css/deck.js/extensions/deck.scale.css">
 
+    {% if page.css_file %}
+    <link rel="stylesheet" href="assets/css/{{ page.css_file }}">
+    {% endif %}
+
     <script src="assets/javascripts/modernizr.custom.js"></script>
   </head>
   <body>
