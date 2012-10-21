@@ -1,10 +1,36 @@
 <html>
   <head>
     <title>{{page.title}}</title>
+
+    <!-- Deck.js stylesheets -->
+    <link rel="stylesheet" href="assets/css/deck.js/deck.core.css">
+    <link rel="stylesheet" href="assets/css/deck.js/extensions/deck.navigation.css">
+    <link rel="stylesheet" href="assets/css/deck.js/extensions/deck.scale.css">
+
+    <script src="assets/javascripts/modernizr.custom.js"></script>
   </head>
   <body>
     <acticle>
       {{ content }}
+
+      <!-- Navigation links. -->
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
     </acticle>
+
+    <!-- Required JS files. -->
+    <script src="assets/javascripts/jquery-1.7.2.min.js"></script>
+
+    <!-- Deck.js js files -->
+    <script src="assets/javascripts/deck.js/deck.core.js"></script>
+    <script src="assets/javascripts/deck.js/extensions/deck.navigation.js"></script>
+    <script src="assets/javascripts/deck.js/extensions/deck.scale.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $.deck('.slide', { selectors: { container: 'body > article' } });
+      });
+    </script>
+
   </body>
 </html>
