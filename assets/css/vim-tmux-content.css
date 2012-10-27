@@ -1,0 +1,6 @@
+.content h2 {
+  margin-bottom: 1.5em;
+  border-bottom: 3px solid #14fc03; }
+.content p, .content li {
+  margin-left: 2em;
+  font-size: 1.25em; }

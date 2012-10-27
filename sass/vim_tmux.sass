@@ -1,7 +1,17 @@
+@import vim-tmux-vars-and-mixins
 @import vim-tmux-title
+@import vim-tmux-content
 
 body
   font-family: "Bitstream Vera Sans Mono", "Monaco", "Consolas", "Courier New", monospace
-  color: #14FC03
+  color: $text-color
   text-shadow: 0px 0px 12px rgba(20,252,3,0.75)
   background: url('/assets/images/vim_tmux_background.png')
+
+  article.deck-container
+    width: 75%
+    color: $text-color
+
+    .deck-link-next, .deck-link-prev
+      a
+        color: $text-color

@@ -1,9 +1,9 @@
-#intro {
+.title {
   text-align: center; }
-  #intro div {
-    width: 80%;
-    margin: auto; }
-  #intro h1, #intro h2, #intro h3, #intro h4 {
+  .title div {
+    top: 40%;
+    position: absolute; }
+  .title h1, .title h2, .title h3, .title h4 {
     position: relative;
     border: none;
     -webkit-transform: translate(0, 0);
@@ -11,3 +11,8 @@
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     transform: translate(0, 0); }
+
+#intro.title h1, #intro.title h2, #intro.title h3, #intro.title h4 {
+  position: relative; }
+#intro.title div {
+  top: 30%; }

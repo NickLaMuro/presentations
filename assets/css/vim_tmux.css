@@ -1,9 +1,9 @@
-#intro {
+.title {
   text-align: center; }
-  #intro div {
-    width: 80%;
-    margin: auto; }
-  #intro h1, #intro h2, #intro h3, #intro h4 {
+  .title div {
+    top: 40%;
+    position: absolute; }
+  .title h1, .title h2, .title h3, .title h4 {
     position: relative;
     border: none;
     -webkit-transform: translate(0, 0);
@@ -12,8 +12,25 @@
     -o-transform: translate(0, 0);
     transform: translate(0, 0); }
 
+#intro.title h1, #intro.title h2, #intro.title h3, #intro.title h4 {
+  position: relative; }
+#intro.title div {
+  top: 30%; }
+
+.content h2 {
+  margin-bottom: 1.5em;
+  border-bottom: 3px solid #14fc03; }
+.content p, .content li {
+  margin-left: 2em;
+  font-size: 1.25em; }
+
 body {
   font-family: "Bitstream Vera Sans Mono", "Monaco", "Consolas", "Courier New", monospace;
   color: #14fc03;
   text-shadow: 0px 0px 12px rgba(20, 252, 3, 0.75);
   background: url("/assets/images/vim_tmux_background.png"); }
+  body article.deck-container {
+    width: 75%;
+    color: #14fc03; }
+    body article.deck-container .deck-link-next a, body article.deck-container .deck-link-prev a {
+      color: #14fc03; }

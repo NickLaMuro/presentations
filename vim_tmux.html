@@ -2,10 +2,11 @@
 layout: deck-js
 title: "Vim + Tmux: How to make Vim your IDE for cross language development"
 css_file: vim_tmux.css
+transition_theme: fade
 
 ---
 
-{% for slide in site.categories.vim-tmux %}
+{% for slide in site.categories.vim-tmux reversed %}
   <section class="slide{% unless slide.tags == empty %} {{ slide.tags | join ' '}}{% endunless %}" id="{{ slide.title }}">
     {{ slide.content }}
   </section>

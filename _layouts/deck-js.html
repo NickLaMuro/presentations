@@ -5,7 +5,11 @@
     <!-- Deck.js stylesheets -->
     <link rel="stylesheet" href="assets/css/deck.js/deck.core.css">
     <link rel="stylesheet" href="assets/css/deck.js/extensions/deck.navigation.css">
+    <link rel="stylesheet" href="assets/css/deck.js/extensions/deck.hash.css">
     <link rel="stylesheet" href="assets/css/deck.js/extensions/deck.scale.css">
+    {% if page.transition_theme %}
+    <link rel="stylesheet" href="assets/css/deck.js/themes/transition/{{ page.transition_theme }}.css">
+    {% endif %}
 
     {% if page.css_file %}
     <link rel="stylesheet" href="assets/css/{{ page.css_file }}">
@@ -14,7 +18,7 @@
     <script src="assets/javascripts/modernizr.custom.js"></script>
   </head>
   <body>
-    <acticle>
+    <article class="deck-container">
       {{ content }}
 
       <!-- Navigation links. -->
@@ -28,6 +32,7 @@
     <!-- Deck.js js files -->
     <script src="assets/javascripts/deck.js/deck.core.js"></script>
     <script src="assets/javascripts/deck.js/extensions/deck.navigation.js"></script>
+    <script src="assets/javascripts/deck.js/extensions/deck.hash.js"></script>
     <script src="assets/javascripts/deck.js/extensions/deck.scale.js"></script>
 
     <script type="text/javascript">
