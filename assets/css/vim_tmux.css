@@ -2,7 +2,8 @@
   text-align: center; }
   .title div {
     top: 40%;
-    position: absolute; }
+    position: absolute;
+    width: 100%; }
   .title h1, .title h2, .title h3, .title h4 {
     position: relative;
     border: none;
