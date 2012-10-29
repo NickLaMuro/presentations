@@ -17,3 +17,10 @@
   position: relative; }
 #intro.title div {
   top: 30%; }
+
+.title.with-sub-title h1, .title.with-sub-title h2, .title.with-sub-title h3, .title.with-sub-title h4 {
+  position: relative; }
+.title.with-sub-title h1 {
+  line-height: 0.9em; }
+.title.with-sub-title div {
+  top: 40%; }
