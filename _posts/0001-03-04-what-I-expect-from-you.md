@@ -15,3 +15,4 @@ What I expect from you
 
   - Nah, just kidding.
   - Questions/Critiques are welcome (and encourage).
+  - Heckling is legit too (to an extent...)
