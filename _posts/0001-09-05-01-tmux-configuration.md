@@ -1,8 +1,8 @@
 ---
-title: tmux-config
+title: tmux-configuration
 category: vim-tmux
 tags: ['title']
 ---
 
 Configuration
--------------
+=============
