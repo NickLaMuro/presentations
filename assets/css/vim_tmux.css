@@ -31,6 +31,8 @@
 .content p, .content li {
   margin-left: 2em;
   font-size: 1.25em; }
+.content li p, .content li li {
+  font-size: 1em; }
 
 .screenshot img {
   margin-top: 30px;
@@ -51,3 +53,22 @@ body {
     color: #14fc03; }
     body article.deck-container .deck-link-next a, body article.deck-container .deck-link-prev a {
       color: #14fc03; }
+    body article.deck-container pre, body article.deck-container code {
+      background-color: #222222; }
+    body article.deck-container pre {
+      margin: 0px auto;
+      border: none;
+      width: 80%;
+      font-size: 1.25em;
+      border-radius: 15px;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px; }
+    body article.deck-container code {
+      border: 1px solid #333333;
+      color: #4183c4;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      padding: 0px 5px; }
+    body article.deck-container pre code {
+      border: none; }

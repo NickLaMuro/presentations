@@ -4,3 +4,5 @@
 .content p, .content li {
   margin-left: 2em;
   font-size: 1.25em; }
+.content li p, .content li li {
+  font-size: 1em; }

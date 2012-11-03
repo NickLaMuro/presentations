@@ -1,7 +1,7 @@
 ---
 title: tmux-windows-and-panes-cont
 category: vim-tmux
-tags: ['title']
+tags: ['content']
 ---
 
 Tmux:  Windows and Panes

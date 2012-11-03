@@ -16,3 +16,22 @@ body
     .deck-link-next, .deck-link-prev
       a
         color: $text-color
+
+    pre, code
+      background-color: #222
+
+    pre
+      margin: 0px auto
+      border: none
+      width: 80%
+      font-size: 1.25em
+      @include rounded-corners
+
+    code
+      border: 1px solid #333
+      color: #4183C4
+      @include rounded-corners(3px)
+      padding: 0px 5px
+
+    pre code
+      border: none
